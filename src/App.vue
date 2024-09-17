@@ -1,15 +1,17 @@
 <template>
-  
   <NavComponent/>
+  <CardComponents/>
 </template>
 
 <script>
 import NavComponent from './components/NavComponent.vue'
+import CardComponents from './components/CardComponents.vue'
 
 export default {
   name: 'App',
   components: {
-    NavComponent
+    NavComponent,
+    CardComponents
   }
 }
 </script>
